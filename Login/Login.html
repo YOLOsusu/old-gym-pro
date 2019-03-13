@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css"  href="../css-php/Login.css"  rel="stylesheet" />
+<title>健身中心登录界面</title>
+</head>
+
+<body  bgcolor="#CCCCCC"  >
+    <div class="all">
+        <div class="formm1">
+              <div class="ka"><a href="../../index.php"><br>首页</a></div>
+              <div class="ka1"><br>登录</div>
+              <div class="ka"><a href="Formm.php"><br>忘记密码</a></div>
+              <div class="ka"><a href="Login-sign1.html"><br>会员注册</a></div>
+              <div class="ka"><a  href="Login-coach.html"><br>教练注册</a></div> 
+              <div class="ka"><a href="Ltrue.html"><br>开通会员</a></div>
+        </div>
+        <div class="formm">
+            <form  action="Login-pd.php" method="post">
+            <center>
+              <h3><br>健身中心会员管理系统登录<br><br></h3>
+              <table width="500" height="322"  background="../image/u=4287776474,1691145621&fm=27&gp=0.jpg" style="box-shadow:0px 0px 6px #474545" >
+                <tr>
+                  <td height="48" colspan="2" align="center">用户登录</td>
+                  <td width="264">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="80" height="8" align="right">账号：</td>
+                  <td width="250"><input name="zh" type="text" size="15" height="20" placeholder="请输入手机号" box/></td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td height="38" align="right">密码：</td>
+                  <td><input name="mm"  type="password" size="15" height="20" /></td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td height="38" align="right">验证码：</td>
+                    <td><input type="text" name="yzm" size="15" height="20" /><img src="code.php" onclick="this.src='code.php'" alt="换一张" /></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                <tr>
+                  <td height="38" colspan="2" align="right"><input name="XZ" type="radio" value="mer" />
+                    会员 &nbsp;
+                    <input name="XZ" type="radio"  value="coa" />
+                    教练 &nbsp;
+                    <input name="XZ" type="radio" value="epl" />
+                    员工
+                    <input name="XZ" type="radio" value="sta" />
+                    管理员
+                <tr>
+                  <td height="38" colspan="2">
+                    <center>
+                      <input name="tj" type="submit" value="登录" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                      <input name="cz" type="reset" value="重置" />
+                    </center>
+                  </td>
+                  <td>&nbsp;</td>
+                 </tr>
+                 <tr>
+                  <td height="38" colspan="2" ></td>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            </center>
+            </form>
+      </div>
+   </div>
+</body>
+</html>

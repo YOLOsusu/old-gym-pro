@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css"  href="../css-php/Login.css"  rel="stylesheet" />
+<title></title>
+<script type="text/javascript">
+function $(id){return document.getElementById(id);}
+function show1(){
+  var a1=parseFloat($("ka1").value);
+  if(a1>0 && a1!="" ){
+      if(a1==1){
+        $("mn").value=200;
+      }
+  }else{
+  alert("请选择开通卡项");
+  }
+
+}
+function show2(){
+  var a1=parseFloat($("ka2").value);
+  if(a1>0 && a1!="" ){
+      if(a1==2){
+        $("mn").value=500;
+      }
+  }else{
+  alert("请选择开通卡项");
+  }
+
+}
+function show3(){
+  var a1=parseFloat($("ka3").value);
+  if(a1>0 && a1!="" ){
+      if(a1==3){
+        $("mn").value=900;
+      }
+  }else{
+  alert("请选择开通卡项");
+  }
+
+}
+</script>
+</head>
+
+<body  bgcolor="#CCCCCC" >
+    <div class="all">
+        <div class="formm1">
+            <div class="ka"><a href="../../index.php"><br>首页</a></div>
+            <div class="ka"><a href="Login.html"><br>登录</a></div>
+            <div class="ka"><a href="Formm.php"><br>忘记密码</a></div>
+            <div class="ka"><a href="Login-sign1.html"><br>会员注册</a></div>
+            <div class="ka"><a  href="Login-coach.html"><br>教练注册</a></div> 
+            <div class="ka1"><br>开通会员</div>
+      </div>
+      <div class="formm">
+  
+          <form action="Ltrue-up.php" method="POST">
+            <center>
+                <h3><br>首次开通支付会费</h3><br>
+                   请选择开通的选项<br>
+                   <input type="radio" value="1" name="ka" id="ka1" onclick="show1();" >月卡 <input type="radio" value="2" name="ka" id="ka2" onclick="show2();">季卡
+                 <input type="radio" value="3" name="ka" id="ka3" onclick="show3();">年卡<br>
+                费用：<input type="text" name="mn" style="color:red;font-weight:bold;width:30px" id="mn">(人民币)<br><br>
+                输入注册手机号：<input type="text" name="ph" id=""><br><br>
+                输入注册密码：<input type="password" name="mm" id=""><br><br>
+                <input type="submit" value="提交">
+            </center>
+          </form>
+      </div>
+    </div>  
+</body>
+</html>

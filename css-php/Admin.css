@@ -1,0 +1,258 @@
+/* CSS Document */
+
+		body{
+		margin:0px auto;
+			background-color:#F1F1F1;
+
+		}
+		.top{
+			width:1348px;
+			height:120px;
+			background:url(../image/A1.png);
+			text-align:center;
+			margin:0 auto;
+			border-bottom: 1px solid #6699CC;
+			
+
+		}
+		.mindou{
+			width:1348px;
+			height:562px;
+
+
+		}
+		.left{
+			width:230px;
+			height:560px;
+			float:left;
+			border-right: 1px solid #6699CC;
+			background-color: rgb(240, 243, 247);
+
+		}
+		.right{
+			width:1100px;
+			height:560px;
+			float:left;
+			
+
+
+		}
+		.dul{
+		width:230px;
+		height:50px;
+		}
+		.dimg1{
+			margin: 10px;
+			float: none;
+			width:90px;
+			height:90px; 
+			border:2px solid #6699CC;
+			border-radius:45px;
+			position:relative;
+		}
+
+		.dimg{
+			width:90px;
+			height:90px; 
+			border:2px solid #6699CC;
+			margin:10px; 
+			border-radius:45px;
+			float:left;
+			position:relative;
+				}
+		.dimg a,.dimg span{
+			display:none; 
+			text-decoration:none
+		}
+		.dimg:hover{
+			cursor:pointer;
+		}
+		.dimg:hover a.now{
+			cursor:pointer; 
+			position:absolute;
+		    top:0;
+			width:100%;
+			height:100%;
+			z-index:100; 
+			left:0; display:block;}
+		
+		.dimg1 img,.dimg img{
+					border-radius:50%; 
+					left:0;
+					cursor:pointer;
+				    position:absolute;
+				}	
+		.dimg:hover span{ 
+		   display:block;
+		   position:absolute;
+		   bottom:0;
+		   left:0;
+		   color:#FFF;
+		   width:90px; 
+		   z-index:10;
+		   height:36px;
+		   line-height:36px;
+		   background:#000;
+		   filter:alpha(opacity=60);
+		  -moz-opacity:0.5;
+		  opacity: 0.5;
+		  border-bottom-right-radius: 45px;
+		  border-bottom-left-radius: 45px;
+		}
+				
+		.dli,.dl2,.dl3{
+		  width:75px;
+		  height:20px;
+		  margin:10px;
+		  padding:5px;
+		  border:3px  solid #6699CC;
+		  background-color:#6699CC;
+		 ; 
+		  border-radius:8px; 
+		  float:left;
+		  text-align:center;
+		  font-weight:bold;
+		 }
+		 .dl2{
+		 background-color:#6699CC;
+		 border-color:#6699CC;
+		 
+		 }
+		 .dl3{
+		 background-color: #FF9999;
+		 border-color: #FF9999;
+		 }
+		 
+		.dli:hover,.dl2:hover{
+		 border:0px;
+		 background-color: #6699FF;
+		}
+		
+		.dli:hover a,.dl2:hover a{
+			color:#FFF;
+			border:0px;
+			text-decoration:underline;
+		   }
+		.dl3:hover{
+			color:#FFFFFF;
+			border:0px;
+			background-color:#FF9999;
+			text-decoration:underline;
+		}
+		.drr{
+		  box-shadow: 0px 0px 4px #6699CC;
+		  border: 2px solid #6699CC;
+		  color:#6699CC;
+		  width:75px;
+		  height:20px;
+		  margin:10px;
+		  padding:5px;
+		  border-radius:8px; 
+		  float:left;
+		  text-align:center;
+			
+			
+			}
+		a{
+		color:#000000;
+        text-decoration:none;
+		
+		}
+		a:hover{
+		color:#FFFFFF;
+		text-decoration: underline;
+		}
+		.tr1{
+		 background:#6699CC;
+		 color:#FFFFFF;
+		 }
+		caption{
+		color:#6699CC;
+		 font-weight:bold;
+		  font-size:24px
+		}
+
+.linear,.linear1{ 
+		width:1030px;
+		height:38px;
+		FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b8c4cb,endColorStr=blue); /*IE 6 7 8*/ 
+		
+		background: -ms-linear-gradient(top, #fff, #6699CC);        /* IE 10 */
+		
+		background:-moz-linear-gradient(top,#fff,#6699CC );/*���*/ 
+		
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fff), to(#6699CC));/*�ȸ�*/ 
+		
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#6699CC));      /* Safari 4-5, Chrome 1-9*/
+		
+		background: -webkit-linear-gradient(top, #fff, #6699CC);   /*Safari5.1 Chrome 10+*/
+		
+		background: -o-linear-gradient(top, #fff, #6699CC);  /*Opera 11.10+*/
+		box-shadow: 0px 0px 8px  #989595;
+} 
+.linear:hover td{
+	background: #6699CC;
+	color: #FFFFFF;
+}
+.botum{
+		height:20px;
+		 width:55px; 
+		 background:#6699CC;
+		 border-radius:10px;
+		box-shadow: 0px 0px 4px #6699CC;
+		margin:3px;
+		float:right;
+		padding:6px;
+		 
+
+
+}
+input{
+ border: 1px solid #6699FF;
+ height:25px;
+ margin: 5px;
+
+}
+input:hover{
+ box-shadow: 0px 0px 4px #6699FF;
+ border: 1px solid #6699FF;
+ 
+}
+.dot{
+ width: 20px;
+ height: 20px;
+  border-radius:10px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  float:right;
+  box-shadow:0px opx 8px #FF99CC;
+
+
+
+}
+.Tjb{
+	width: 600px;
+	height: 530px;
+	margin: 0 auto;
+	border: 8px groove rgb(79, 226, 248);
+	background-color: rgb(203, 235, 236);
+}
+/*修改管理员资料样式*/
+.SimgK{
+	width: 600px;
+	height:500px;
+	border: 1px solid #66CCFF;
+	margin: 20px auto;
+	box-shadow: 0px 0px 6px #706f6f;
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+

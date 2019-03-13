@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+a.a1{
+	text-decoration:none;
+	font-size:18px;
+	color:#0696DC;
+	
+	}
+a.a1:hover{
+	color:#E71CD3;
+		}
+.tan{
+	color:#0696DC;
+	font-weight:bold;
+	text-align:right
+			}
+

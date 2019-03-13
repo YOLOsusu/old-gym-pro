@@ -1,0 +1,162 @@
+/* CSS Document */
+
+.all{
+	 width:900px;
+	 height:100%;
+	 margin:0 auto;
+	}
+	
+.dh{
+	width:900px;
+	height:62px;
+	margin:5px 0px 10px 0px;
+	background-color:#FFFFFF;
+	
+	
+
+
+	
+	}
+.div{
+	height:2000px;
+	width:900px;
+
+	}
+.d1left{
+	height:1990px;
+	width:606px;
+	background-color:#FFFFFF;
+	float:left
+	
+	}
+.d2lright{
+	height:950px;
+	width:244px;
+	padding:20px;
+	float:right;
+	margin:0px 0px 10px 5px;
+	background-color:#FFFFFF;
+	}
+	
+	.ul{
+	list-style-image:none;
+	
+	
+	}
+	.divX{
+	background-image:url(../image/shi4.png);
+	 height:25px; width:198px;
+	   padding:25px;
+	    text-align:center;
+		 text-indent:80px;
+		  letter-spacing:10px;
+	
+	
+	}
+	.dixdum{
+		height:30px;
+		width:861px;
+		padding:20px;
+		color:#CCCCCC ;
+		background-color:#FFFFFF;
+		
+		
+		}
+		
+     ul{
+         list-style: none;
+         }
+          .nav>li{
+              float: left;
+			
+          }
+          .xa{
+		     display: block;
+             text-decoration: none;
+             width:112px;
+             height:20px;
+			 text-align:center;
+             background-color:#CCCCFF;
+			 color:#000000;
+			 padding:10px 0px 10px 0px;
+			
+
+         }
+		 ul a{
+		 color:#000000;
+		 }
+		
+		 li:hover.drop-down{
+		 background-color:#8080FF;
+		 color:#FFFFFF;
+		 
+		}
+		
+		
+         .nav>li:first-child a{
+             border-radius: 10px 0 0 10px;
+         }
+         .nav>li:last-child a{
+             border-radius: 0 10px 10px 0;
+         }
+         .drop-down{
+		     display:block;
+             text-decoration: none;
+             width: 72px;
+             height: 22px;
+			 color:#000000;
+			 padding:20px;
+             position: relative;
+			 text-align:center;
+			 color:#6699CC;
+			  font-weight:bold;
+        }
+         .drop-down-content{
+			 margin: 20px 0px 0px 0px;
+             padding: 0;
+             position: absolute;
+             left: -999px;
+         }
+ 
+         .drop-down-content li:hover.xa{
+			background-color:#8080FF;
+			color:#FFFFFF;
+		 }
+		 .drop-down-content li a:hover{
+			color:#FFFFFF;
+		 }
+		
+		
+         .nav .drop-down:hover .drop-down-content{
+             left: 0;
+		 }
+
+
+		 
+		 .a2{
+			
+				color:#6699CC; 
+				font-weight:bold;
+				
+			
+			 }
+			 a.a2:hover{
+			color:#FFCC00;
+			text-decoration:underline;
+			image-orientation:flip;
+			
+			
+			 }
+			 .dimg{width:80px;
+				height:80px;
+				border:2px solid #FF99CC;
+			   margin:15px; 
+			   border-radius:50%; 		
+					   
+				   }
+		   .dimg img{
+			   border-radius:50%; 
+		   }		
+		   .dimg:hover{
+				   box-shadow: 0px 0px 4px #6699FF;
+				   }

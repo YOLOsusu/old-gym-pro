@@ -1,0 +1,327 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color:rgb(224, 223, 223);
+}
+/*整体样式*/
+.lii{
+	
+	list-style: none;
+	}
+	.all{width:800px;
+	 height:1000px; 
+	 margin:0 auto;
+	 background-color:rgb(224, 223, 223);
+	
+			
+		}
+/*页面头部样式*/
+	.dtop{
+		width:760px;
+		height:35px;
+		margin: 0px 0px 10px 0px; 
+		background-color:#FFF;
+		padding:20px;
+		border-radius:20px; 
+		}
+
+		.dmidou{
+			width:799px;
+			height:800px;
+			
+			}
+/*左边导航栏样式*/
+		.dleft{
+			width:120px;
+			 height:799px;
+			  float:left;
+			  background-color:#FFF;
+			}
+	 .dimg1{
+			width:80px;
+			height:80px; 
+			border:2px solid #8080FF;
+			margin:10px; 
+			border-radius:45px;
+			position:relative;
+			}
+		
+       .dimg{
+			width:80px;
+			height:80px; 
+			border:2px solid #8080FF;
+			margin:10px auto; 
+			border-radius:40px;
+			position:relative;
+				}
+		.dimg a,.dimg span{
+			display:none; 
+			text-decoration:none;
+			text-align: center;
+		}
+		.dimg:hover{
+			cursor:pointer;
+		}
+		.dimg:hover a.now{
+			cursor:pointer; 
+			position:absolute;
+		    top:0;
+			width:100%;
+			height:100%;
+			z-index:100; 
+			left:0; display:block;
+		  
+		}
+		
+		.dimg1 img,.dimg img{
+					border-radius:50%; 
+					left:0;
+					cursor:pointer;
+				    position:absolute;
+				}	
+		.dimg:hover span{ 
+		   display:block;
+		   position:absolute;
+		   bottom:0;
+		   left:0;
+		   color:#FFFFFF;
+		   width:80px; 
+		   z-index:10;
+		   height:30px;
+		   line-height:36px;
+		   background:#000;
+		   filter:alpha(opacity=60);
+		   -moz-opacity:0.5;
+		   opacity: 0.5;
+		   border-bottom-right-radius:38px;
+		   border-bottom-left-radius:38px;
+		}	
+		.dli{
+		width:65px;
+		 height:20px;
+		  margin:15px;
+		  padding:10px;
+		 background-color:#8080FF;
+		  border:2px solid; 
+		  border-radius:8px; 		
+					
+					}
+		.drr{
+		  box-shadow: 0px 0px 4px #8080FF;
+		  border: 2px solid #8080FF;
+		  color:#8080FF;
+          width:65px;
+		  height:15px;
+		  margin:15px;
+		  padding:8px;
+		  border-radius:8px; 
+		  text-align:center;
+			}
+		.drr1{
+		  box-shadow: 0px 0px 4px #8080FF;
+		  border: 2px solid #8080FF; 
+		  color: #8080FF;
+          width:65px;
+		  height:15px;
+		  margin:15px;
+		  padding:8px;
+		  border-radius:8px; 
+		  text-align:center;
+			}
+/*右边内容页面样式*/
+		.dright{
+			width:667px; 
+			height:799px;
+			
+			float:left ;
+			margin:0px 0px 0px 10px;
+			background-color:#FFFFFF;
+			
+			}
+			.dright a:hover{
+				text-decoration: underline;
+				color: #8080FF;
+			}
+/*页面底部样式*/
+			.down{ 
+			width:799;
+			height:65px;
+			background-color:#FFFFFF;
+			margin:10px 0px 0px 0px;
+			padding:20px;
+			}
+/*会员与教练页面的链接样式*/
+			a{
+		    text-decoration: none;
+			color:#000000;
+			}
+			a:hover{
+			color:#FFFFFF;
+			
+			
+			}
+/*表格样式*/
+			caption{
+			color: rgb(112, 112, 253);
+			 font-size:18px;
+			 color:#8080FF;
+			 font-weight:bold;
+			
+			}
+			.td1{
+			color:#8080FF;
+			font-weight:bold;
+			text-align:right
+			
+			}
+			.tdi2{
+			border-bottom:solid 2px  #8080FF;
+			text-align:center;
+			font-weight:bold;
+			
+			}
+		   tr:hover{
+		   background-color:rgb(187, 187, 250);
+		   }
+		   td:hover.td1{
+		   color:rgb(104, 104, 252);
+		  }
+		
+/*会员信息表背景样式*/	
+		.linear,.linear1{ 
+		width:600px;
+		height:38px;
+		FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b8c4cb,endColorStr=blue); /*IE 6 7 8*/ 
+		
+		background: -ms-linear-gradient(top, #fff, #8080FF);        /* IE 10 */
+		
+		background:-moz-linear-gradient(top,#fff,#8080FF);/*火狐*/ 
+		
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fff), to(#8080FF));/*谷歌*/ 
+		
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#8080FF));      /* Safari 4-5, Chrome 1-9*/
+		
+		background: -webkit-linear-gradient(top, #fff, #8080FF);   /*Safari5.1 Chrome 10+*/
+		
+		background: -o-linear-gradient(top, #fff, #8080FF);  /*Opera 11.10+*/
+
+} 	
+.linear:hover td{
+	background-color:#FFFFFF;
+	color:#8080FF;
+	border: 1px #8080FF;
+	box-shadow: 0px 0px 4px #8080FF;
+}
+/*教练信息表背景样式*/
+	.linear2{ 
+		width:600px;
+		height:38px;
+		FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b8c4cb,endColorStr=blue); /*IE 6 7 8*/ 
+		
+		background: -ms-linear-gradient(top, #fff, #0EA8F3);        /* IE 10 */
+		
+		background:-moz-linear-gradient(top,#fff,#0EA8F3);/*火狐*/ 
+		
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fff), to(#0EA8F3));/*谷歌*/ 
+		
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#0EA8F3));      /* Safari 4-5, Chrome 1-9*/
+		
+		background: -webkit-linear-gradient(top, #fff, #0EA8F3);   /*Safari5.1 Chrome 10+*/
+		
+		background: -o-linear-gradient(top, #fff, #0EA8F3);  /*Opera 11.10+*/
+
+} 
+.linear2:hover td{
+	background-color:#0EA8F3;
+	color: #FFFFFF;
+}
+.linear2 a:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+/*体检表样式*/
+.Tjb{
+	width: 600px;
+	height: 650px;
+	margin: 0 auto;
+	border: 8px groove rgb(79, 226, 248);
+	background-color: rgb(203, 235, 236);
+}
+.Tjb1{
+	width: 400px;
+	height: 450px;
+	margin: 30px auto;
+	border: 8px groove #8080FF;
+	background-color: rgb(246, 249, 252);
+}
+h3{
+	display: inline;
+}
+textarea:hover{
+box-shadow: 2px 4px 4px rgb(28, 28, 29);
+border: 1px solid rgb(35, 35, 36)
+}
+input{
+	margin: 8px;
+	height: 25px;
+} 
+input:hover{
+	box-shadow: 2px 4px 4px rgb(28, 28, 29);
+	border: 1px solid rgb(35, 35, 36)
+}
+.cname{
+border:0px;
+border-bottom: 2px solid #000000;
+background-color: rgb(203, 235, 236);
+width: 400px;
+height: 30px;
+font-size: 24px;
+}
+.cname:hover{
+	border:0px;
+	border-bottom: 2px solid #000000;
+	background: #FFFFFF;
+}
+.bottun{
+background-color:  #8080FF;
+width:100px;
+height:40px;
+border-radius: 20px;
+font-weight:bold;
+font-size: 16px;
+margin: 10px;
+}
+.Mtj{
+	text-align: center;
+	width:100px;
+	height:800px;
+	float:left;
+	background-color: rgb(145, 145, 255);
+	border-radius: 20px;
+
+}
+.Mimg-UP{
+	width:600px;
+	height:200px;
+	margin:0 auto;
+	background:rgb(212, 248, 255);
+	box-shadow:2px 4px 4px #000000;
+}
+.MD,.MD1{ 
+	width:500px;
+	height:300px;
+	margin:50px auto;
+	border:1 soild blue;
+    box-shadow:0px 0px 4px blue;
+	background-color:  rgb(178, 178, 250)}
+.MD1{
+width: 550px;
+height: 500px;
+background-color:  rgb(198, 198, 253)
+}
+
+
+
+
+
